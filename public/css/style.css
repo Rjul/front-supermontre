@@ -15,7 +15,7 @@ body{
 /*#region Header */
 
 header{
-    height: 10vh;
+    height: 80px;
     width: 100%;
     margin: auto;
     display: flex;
@@ -42,12 +42,12 @@ header{
     height: 5px;   
 }
 .c-right{
-    top: -7vh;
+    top: -100px;
     right: 0;
     transform: rotate(40deg);
 }
 .c-left{
-    top: -7vh;
+    top: -100px;
     left: 0;
     transform: rotate(-40deg);
 }
