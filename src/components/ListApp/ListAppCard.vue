@@ -66,7 +66,7 @@ export default {
   position: relative;
   bottom: auto;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-end;
   margin: 3px;
 }

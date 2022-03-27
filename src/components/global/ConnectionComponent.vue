@@ -14,7 +14,7 @@
           >Je n'est pas de compte</span
         >
         <h3>CONNECTION</h3>
-        <form action="./dashboard.php">
+        <form action="#je-connais-pas-le-port-qui-sera-attribué">
           <input
             type="email"
             class="inputAuth"
@@ -35,8 +35,8 @@
         </form>
         <div class="separateurHorizontal"></div>
         <div id="reseauxSociaux">
-          <img src="../../assets/reseauxSociaux/Google.png" alt="" />
-          <img src="../../assets/reseauxSociaux/Facebook.png" alt="" />
+          <img src="/assets/reseauxSociaux/Google.png" alt="" />
+          <img src="/assets/reseauxSociaux/Facebook.png" alt="" />
         </div>
       </div>
       <div class="separateurVertical"></div>
@@ -52,7 +52,7 @@
           >J'ai un compte, je souhaite me connecté</span
         >
         <h3>INSCRIPTION</h3>
-        <form action="./dashboard.php">
+        <form action="#je-connais-pas-le-port-qui-sera-attribué">
           <input
             type="email"
             name="email"
@@ -115,7 +115,6 @@ export default {
 
   methods: {
     onResize: function () {
-      console.log(this.windowWidth);
       this.windowWidth = window.innerWidth;
       if (this.windowWidth < 600) {
         // active spécifique part of form
